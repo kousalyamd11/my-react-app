@@ -1,0 +1,86 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+
+  border-radius: 10px;
+
+
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+
+  padding: 20px;
+
+  margin: 10px;
+  text-align: center;
+
+  max-width: 250px;
+
+  display:inline-block;
+
+}
+
+.card .card-image {
+
+  max-width: 50%;
+
+  height: auto;
+
+  border-radius: 50%;
+
+  margin-bottom: 10px;
+
+}
+
+.card .card-title {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+
+  color: hsl(0, 0%, 20%);
+}
+
+
+.card .card-text {
+  font-family: Arial, sans-serif;
+
+  color: hsl(0, 0%, 30%);
+
+}
+
+.button{
+  background-color: hsl(208, 36%, 48%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #640c0c;
+  border-radius: 5px;
+}
+
+.student .p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-family:sans-serif;
+  font-size: 1.5em;
+  color: hsla(191, 15%, 86%, 0.725);
+  background-color: rgb(12, 146, 48);
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.loginprompt{
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+
+}
